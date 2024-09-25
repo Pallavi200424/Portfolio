@@ -1,0 +1,33 @@
+@media only screen and(min-width:700px) and (max-width: 800px) {
+    .navbar{
+        flex-direction: column;
+    }
+    header{
+       position: relative;
+    }
+    .inner-home{
+         flex-direction: column-reverse;
+        
+    }
+    .About-me .inner-home {
+        flex-direction:column;
+    }
+    .About-me .inner-home .home-righ img{
+        display: none;
+    }
+    .inner-skills{
+        width: 90%;
+    }
+    .inner-Services, .Project-Services{
+        width: 90%;
+        grid-template-columns: auto auto;
+
+    }
+   .content-inner{
+    width: 50%;
+   }
+   form input, textarea{
+    border-radius: 15px;
+   }
+    
+}

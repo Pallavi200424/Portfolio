@@ -1,0 +1,42 @@
+@media only screen and(min-width:380px) and (max-width:699px){
+    header{
+        position: relative;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar .nav-right{
+        display: none;
+    }
+
+    .inner-home{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .About-me .inner-home{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .About-me .inner-home .home-righ img{
+       
+        display: none;
+    }
+    .inner-skills{
+        width: 90%;
+    }
+    .inner-Services .Project-Services{
+        width: 90%;
+        grid-template-columns: auto;
+
+    }
+   .contant-inner{
+        width: 50%;
+   }
+   form input, textarea{
+    border-radius: 15px;
+   }  
+    
+}
